@@ -26,7 +26,7 @@ function applyStatic(){
   document.querySelectorAll('[data-langs]').forEach(g=>{g.innerHTML=btns;g.addEventListener('click',e=>{const b=e.target.closest('button');if(b&&b.dataset.l!==LANG)setLang(b.dataset.l);});});
 }
 (function boot(){
-  const V=location.hostname==='localhost'?String(Date.now()):'1';
+  const V=location.hostname==='localhost'?String(Date.now()):'4';
   const load=src=>new Promise((ok,ko)=>{const s=document.createElement('script');s.src=src+'?v='+V;s.onload=ok;s.onerror=ko;document.head.appendChild(s);});
   const files=['lang/es.js'];if(LANG!=='es')files.push('lang/'+LANG+'.js');
   Promise.all(files.map(load)).then(()=>{
