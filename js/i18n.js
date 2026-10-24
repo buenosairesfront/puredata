@@ -22,8 +22,8 @@ function applyStatic(){
   document.getElementById('keys').innerHTML=T.keys.map(([k,d])=>`<div class="k"><kbd>${k}</kbd><span>${d}</span></div>`).join('');
   const L=['https://msp.ucsd.edu/software.html','https://msp.ucsd.edu/techniques.htm','https://puredata.info'];
   document.getElementById('ncards').innerHTML=T.next.map(([b,s],i)=>`<a class="ncard" href="${L[i]}" target="_blank" rel="noopener"><b>${b}</b><span>${s}</span></a>`).join('');
-  document.getElementById('langs').innerHTML=LANGS.map(([c,ab,nm])=>`<button type="button" lang="${c}" title="${nm}" aria-label="${nm}"${c===LANG?' class="on" aria-current="true"':''} data-l="${c}">${ab}</button>`).join('');
-  document.getElementById('langs').addEventListener('click',e=>{const b=e.target.closest('button');if(b&&b.dataset.l!==LANG)setLang(b.dataset.l);});
+  const btns=LANGS.map(([c,ab,nm])=>`<button type="button" lang="${c}" title="${nm}" aria-label="${nm}"${c===LANG?' class="on" aria-current="true"':''} data-l="${c}">${ab}</button>`).join('');
+  document.querySelectorAll('[data-langs]').forEach(g=>{g.innerHTML=btns;g.addEventListener('click',e=>{const b=e.target.closest('button');if(b&&b.dataset.l!==LANG)setLang(b.dataset.l);});});
 }
 (function boot(){
   const V=location.hostname==='localhost'?String(Date.now()):'1';

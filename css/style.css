@@ -273,3 +273,8 @@ footer a{color:var(--muted)}
 /* el devanagari se rompe con letter-spacing (separa las letras unidas) */
 :lang(hi) *{letter-spacing:0!important}
 @media (max-width:720px){.lesson,.rc{scroll-margin-top:96px}}
+/* idiomas también arriba de todo, visibles al entrar */
+.hero .hero-top{position:relative;z-index:2;display:flex;justify-content:flex-end;padding-top:max(14px,env(safe-area-inset-top,0px))}
+.hero .hero-top + .wrap{padding-top:8px}
+.hero-top .langs{margin-left:0;flex:none;flex-wrap:nowrap;background:#0b0d10cc;backdrop-filter:blur(6px);border:1px solid var(--line);border-radius:20px;padding:5px}
+.hero-top .langs button{font-size:12px;padding:6px 9px}

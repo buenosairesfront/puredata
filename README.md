@@ -18,11 +18,11 @@ Parte de [Buenos Aires Front](https://www.instagram.com/buenos.aires.front/) · 
   1. *La lógica del lenguaje*: cómo se lee un patch, mensajes, inlet caliente y frío, orden de derecha a izquierda.
   2. *Señal y síntesis*: señal de audio, aditiva, ring/AM, FM, filtros (sustractiva).
   3. *Tiempo, secuencias y memoria*: envolventes con `vline~`, secuenciador, azar con reglas, delay con feedback, wavetables.
-- **Cada lección**: explicación, un patch que suena, “Probá esto”, un consejo y los objetos usados (enlazados a la chuleta).
+- **Cada lección**: explicación, un patch que suena, “Probá esto”, un consejo y los objetos usados (enlazados a la caja de objetos).
 - **Patch vivo**: los mensajes se ven viajando (amarillo), la señal fluye por los cables gruesos (cian) y todo lo magenta se toca, arrastra o dibuja (números, sliders, toggles, tablas).
 - **Osciloscopio** con tres vistas (onda, espectro, envolvente) y **ventana de Pd** con lo que imprimen los `print`.
 - **Exportar a .pd**: cada patch se ve como texto, se copia o se descarga, listo para abrir en Pd vanilla. Las versiones en castellano también están en [`patches/`](patches/).
-- **Reglas de oro** de la lógica de Pd, **chuleta** de 45 objetos con buscador y filtros, y **atajos de teclado**.
+- **Reglas de oro** de la lógica de Pd, **caja de objetos** (45, con buscador y filtros) y **atajos de teclado**.
 
 ## Idiomas
 
@@ -49,8 +49,8 @@ No son audios grabados: es un **Pd en miniatura** escrito en JavaScript, sin dep
 |---|---|---|
 | Arranque e idiomas | `js/i18n.js` | Elige el idioma, carga `lang/es.js` + el idioma pedido y después el motor. |
 | Motor | `js/engine.js` | Dibuja el patch en SVG, interpreta los mensajes de control (orden derecha→izquierda, inlets fríos y calientes, `$1`, `;` por nombre) y arma el grafo de señal con Web Audio. Exporta a `.pd`. |
-| Lecciones | `js/app.js` | Estructura y patches de las 14 lecciones, chuleta y armado de la página. |
-| Textos | `lang/<idioma>.js` | Todos los textos de la interfaz, las lecciones, la chuleta y las etiquetas dentro de los patches. |
+| Lecciones | `js/app.js` | Estructura y patches de las 14 lecciones, caja de objetos y armado de la página. |
+| Textos | `lang/<idioma>.js` | Todos los textos de la interfaz, las lecciones, la caja de objetos y las etiquetas dentro de los patches. |
 | Estilos | `css/style.css` | Estética U-MA oscura: magenta, cian y amarillo. |
 
 Detalles en [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md).

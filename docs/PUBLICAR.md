@@ -39,7 +39,7 @@ https://buenosairesfront.github.io/puredata/?lang=zh
 https://buenosairesfront.github.io/puredata/?lang=hi
 ```
 
-También se puede enlazar directo a una lección (`#fm`, `#delay`…), a las reglas (`#reglas`) o a la chuleta (`#ref`). Lista completa en [`GUIA.md`](GUIA.md).
+También se puede enlazar directo a una lección (`#fm`, `#delay`…), a las reglas (`#reglas`) o a la caja de objetos (`#ref`). Lista completa en [`GUIA.md`](GUIA.md).
 
 ## Instagram
 

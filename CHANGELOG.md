@@ -1,5 +1,10 @@
 # Cambios
 
+## 1.0.1 · 2026-10-24
+
+- Selector de idiomas también arriba de todo, visible apenas se abre la página (antes solo aparecía en la barra al bajar).
+- “Chuleta de objetos” pasa a llamarse **Caja de objetos** (en la barra: “Objetos”).
+
 ## 1.0.0 · 2026-10-24
 
 - Primera versión pública en GitHub Pages, a partir del artefacto “Laboratorio Pd U-MA”.

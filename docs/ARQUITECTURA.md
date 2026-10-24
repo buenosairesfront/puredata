@@ -30,7 +30,7 @@ index.html → js/i18n.js → lang/es.js (+ lang/<idioma>.js) → js/engine.js �
 
 - `LESSONS`: por lección, `id`, `part`, `file`, `scope` (vista inicial del osciloscopio) y `patch` (`nodes` + `edges`). Los textos se mezclan desde `T.lessons[id]`.
 - `REF`: `[objeto, categoría, ejemplo]`; la descripción viene de `T.ref` en el mismo orden.
-- Arma la página: encabezados de parte, lecciones, reglas de oro, chuleta con filtros, navegación activa, dock y el dibujo del hero.
+- Arma la página: encabezados de parte, lecciones, reglas de oro, caja de objetos con filtros, navegación activa, dock y el dibujo del hero.
 
 ## Agregar una lección
 

@@ -19,7 +19,7 @@ Las siglas van en el alfabeto de cada idioma; el nombre completo aparece al pasa
 
 ## Qué se traduce
 
-Todo el texto visible: interfaz, lecciones, “Probá esto”, consejos, reglas de oro, chuleta (descripciones y categorías), atajos, enlaces y **los comentarios y etiquetas dentro de los patches** (`labels`).
+Todo el texto visible: interfaz, lecciones, “Probá esto”, consejos, reglas de oro, caja de objetos (descripciones y categorías), atajos, enlaces y **los comentarios y etiquetas dentro de los patches** (`labels`).
 
 Lo que **no** se traduce, a propósito: los nombres de objetos y el contenido de los mensajes y tablas (`nota $1`, `print hola`, `escala`, `onda`, `eco`, `seq`). Son código de Pd: tienen que coincidir con lo que se exporta en el `.pd` y con lo que explica el texto. Cuando hace falta, el texto da la traducción entre paréntesis.
 

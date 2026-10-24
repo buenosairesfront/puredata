@@ -10,7 +10,7 @@
    - **Osciloscopio**: onda, espectro o envolvente.
    - **Ventana de Pd**: lo que imprimen los `print`.
    - **Ver como archivo .pd**: el patch como texto de Pd, para copiar o descargar.
-4. **Reglas de oro** (después de la lección 03), **chuleta** de objetos con buscador, **atajos** y enlaces para seguir aprendiendo.
+4. **Reglas de oro** (después de la lección 03), **caja de objetos** con buscador, **atajos** y enlaces para seguir aprendiendo.
 5. **Dock** (abajo a la derecha): estado del DSP, volumen general y “Silencio”.
 
 ## Lecciones e ids
@@ -34,7 +34,7 @@ Para enlazar una lección: `https://buenosairesfront.github.io/puredata/?lang=es
 | 12 | `delay` | Ecos con cables invisibles | `12-delay.pd` |
 | 13 | `tablas` | Dibujar una onda | `13-wavetable.pd` |
 
-Otras anclas: `#reglas` (reglas de oro) y `#ref` (chuleta).
+Otras anclas: `#reglas` (reglas de oro) y `#ref` (caja de objetos).
 
 ## Abrir los patches en Pd
 
